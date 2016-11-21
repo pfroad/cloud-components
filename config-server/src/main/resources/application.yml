@@ -1,0 +1,11 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git: http://183.6.168.34:8090/app/config.git
+        username: ryan.cao
+        password: caoyi881207
